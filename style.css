@@ -1,0 +1,256 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.header{
+	height: 90rem;
+	background: rgb(255,209,220,0.4);
+}
+
+.heading-box{
+	padding-top:18rem;
+	width: 40%;
+	display: inline-block;
+
+}
+.heading-primary{
+	font-size: 6rem;
+	padding-left: 10rem;
+	font-family: "Lato";
+	font-weight: 300;
+}
+.heading-primary-sub{
+	font-weight: 400;
+}
+
+.img-box1{
+	transform: translate(64%,-75%);
+}
+.img-box2{
+	transform: translate(7%,-90%);
+}
+.sub-heading-box{
+	display: inline-block;
+	width: 35%;
+	transform: translate(78rem,-52rem);
+
+}
+.sub-heading{
+	font-size: 1.63rem;
+	font-weight: 600;
+	font-family: "Lato";
+	color: #3f3f3f;
+}
+.badge-box1{transform: translate(85rem,-50rem);}
+.badge-box2{transform: translate(100rem,-54.7rem);}
+.badge{border-radius: 1rem;}
+
+.main-nav{
+	list-style: none;
+	display: flex;
+	font-size: 2rem;
+
+}
+.nav-a-title{
+	color: blue;
+	margin-right: 45rem;
+	border:2px solid blue;
+	padding: .2rem 1rem;
+	border-radius: 1rem 2rem 2rem 0;
+	font-weight: 700;
+	font-family: "Lato";
+	font-size: 1.7rem;
+
+}
+.nav-a{
+	padding:0 3.5rem;
+	font-size: 1.5rem;
+	font-family: "lato";
+	font-weight: 400;
+	color: rgb(63,63,63,0.9);
+}
+.nav-a-sub{font-weight: 600;}
+.nav-a-sub-u1{color: rgb(255,153,125);}
+.navbar{
+	background:rgb(255,209,220,0.4);
+	padding: 3rem 10rem;
+}
+.about-title-box-1{
+	margin-left: 10rem;
+	display: inline-block;
+	width: 30%;
+}
+.about-title-1{
+	font-size: 4rem;
+	font-family: "lato";
+	font-weight: 300;
+}
+.about-title-1-span{font-weight: 400;}
+.About{padding-top: 10rem; background: rgb(255,209,220,0.2);}
+.about-subtitle-box-1{
+	margin-left: 10rem;
+	display: inline-block;
+	padding: 3rem 0;
+	padding-right: 30rem;
+	width: 55%;
+}
+.about-subtitle-1{
+	font-size: 1.63rem;
+	font-family: "Lato";
+	color: #3f3f3f;
+}
+.about-box-2{
+	transform: translate(78rem,-20rem);
+}
+.about-title-2{
+	font-size: 2.5rem;
+	font-family: "Lato";
+	font-weight: 600;
+}
+.about-subtitle-2-box{width: 28%;}
+.about-subtitle-2{
+	font-size: 1.63rem;
+	font-family: "Lato";
+	color: #3f3f3f;
+	padding: 2rem 0;
+}
+.about-subtitle-3{
+	color: blue;
+	font-size: 1.63rem;
+	font-weight: 600;
+	font-family: "lato";
+}
+.features{padding-top: 20rem; background: rgb(255,209,220,0.2);}
+.features-title-box{
+	transform: translate(78rem,-10rem);
+	display: inline-block;
+	padding-right: 30rem;
+	width: 55%;
+}
+.features-title{
+	font-size: 3rem;
+}
+.img-box3{
+	transform: translate(7%,-95%);
+}
+.features-subtitle-box{
+	transform: translate(78rem,-40%);
+	line-height: 4rem;
+}
+.features-subtitle{
+	font-size: 1.7rem;
+	font-family: "lato";
+	font-weight: 300;
+	color:#3f3f3f;
+}
+.features-subtitle-check{
+	color:rgb(255,153,125);
+	padding-right: .6rem;
+}
+.badge-box3{transform: translate(78rem,-43rem);}
+.badge-box4{transform: translate(93rem,-47.7rem);}
+.more{ background: rgb(255,209,220,0.2);}
+.more-title-box{
+	width: 30%;
+	transform: translate(30%,-95%);
+}
+.more-title{
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+.more-subtitle{
+	font-size: 1.57rem;
+	font-family: "lato";
+	color: #3f3f3f;
+	line-height: 2.5rem;
+}
+.img-box4{
+	transform: translate(57%,-120%);
+}
+.support{
+	background: rgb(255,209,220,0.2);
+	margin-top: 8rem;
+}
+.support-box{
+	background:#fa7d60;
+	border-radius: 1rem;
+	width: 60%;
+	transform: translate(30%,-20rem);
+	padding: 5rem 2rem;
+	margin-top: -8rem;
+}
+.img-5{
+	border:2px solid rgb(255,153,125);
+	border-radius: 50%;
+}
+.founder-box{
+	text-align: center;
+	display: inline-block;
+	transform: translate(15%,-3rem);
+	color: white;
+	font-family: "lato";
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+.founder{
+	font-weight: 300;
+}
+.support-title-box{
+	display: inline-block;
+	color: white;
+	font-size: 1.7rem;
+	font-family: "lato";
+	font-weight: 300;
+	width: 40%;
+	transform: translateX(50%);
+}
+.updates{
+	font-size: 3rem;
+	font-family: "lato";
+	font-weight: 300;
+	margin-top: -8rem;
+	transform: translateX(33%);
+}
+.input{
+	transform: translateX(40rem);
+	font-size: 1.5rem;
+	font-family: "lato";
+	font-weight: 300;
+	padding: 2rem;
+	margin:5rem 0;
+	width: 50rem;
+	border: 1px solid #D3D3D3;
+	border-radius: 10rem;
+}
+.updates-btn{
+	font-size: 2rem;
+	color: white;
+	background: blue;
+	padding:1.5rem;
+	border-radius: 50%;
+}
+.btn{
+	transform: translate(69%,-9.1rem);
+}
+.footer{
+	background: #00003f;
+	padding:5rem 10rem;
+}
+.nav-a-title-bottom{
+	color:white;
+	border-color: white;
+}
+.nav-a-bottom{
+	color: white;
+}
+.nav-a-bottom-img{
+	margin-left: 5rem;
+}
